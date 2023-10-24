@@ -3,6 +3,7 @@ import RoleDice from "./RoleDice"
 import TotalScore from "./TotalScore"
 import styled from "styled-components"
 import { useState } from "react";
+import { Button } from "../styled/Button";
 const GamePlay = () => {
 
   const[score,setScore] = useState(0);
@@ -43,6 +44,10 @@ const GamePlay = () => {
       <RoleDice
       roleDice={roleDice}
       currentDice={currentDice}/>
+      <div className="btns">
+        <Button>Reset</Button>
+        <Button>Show Rules</Button>
+      </div>
     </MainContainer>
   )
 }
@@ -56,6 +61,14 @@ padding-top:70px;
   display: flex;
   justify-content: space-around;
   align-items: end;
+ }
+
+ .btns{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:10px;
  }
 
 `;
