@@ -18,3 +18,6 @@ transition:0.4s background ease-in;
   transition:0.3s background ease-in;
 }
 `;
+
+export const OutlineButton = styled(Button)`
+`
