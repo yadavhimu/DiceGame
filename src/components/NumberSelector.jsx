@@ -36,7 +36,7 @@ align-items: end;
   }
   p{
     font-size:24px;
-    font-weight: 700px;
+    font-weight: 600px;
   }
   .error{
     color:red;
