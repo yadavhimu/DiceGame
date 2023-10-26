@@ -18,6 +18,7 @@ const startGame = ({ toggle }) => {
 
 export default startGame
 
+// eslint-disable-next-line react-refresh/only-export-components
 const Container = styled.div`
   max-width: 1180px;
   display:flex;
