@@ -18,15 +18,18 @@ const RoleDice = ({roleDice, currentDice}) => {
 export default RoleDice
 
 const DiceContainer = styled.div`
-    margin-top:48px;
+    margin-top:25px;
     display: flex;
     flex-direction: column;
     align-items: center;
     
     .dice{
         cursor: pointer;
+    img{
+        width: 170px;
+    }
     }
     p {
-      font-size:24px;
+      font-size:15px;
      }
 `;
