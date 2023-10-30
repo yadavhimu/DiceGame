@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 import { Button } from "../styled/Button"
 
-const startGame = ({ toggle }) => {
+const StartGame = ({ toggle }) => {
   return (
     <Container> 
       <div><img src='./images/dices 1.png'></img></div>
@@ -16,9 +16,8 @@ const startGame = ({ toggle }) => {
   )
 }
 
-export default startGame
+export default StartGame
 
-// eslint-disable-next-line react-refresh/only-export-components
 const Container = styled.div`
   max-width: 1180px;
   display:flex;
